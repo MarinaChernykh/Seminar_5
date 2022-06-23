@@ -3,8 +3,7 @@
 
 double[] NewArray = CreateFillArray();
 PrintArray(NewArray);
-Sum(NewArray);
-
+MaxMinDiff(NewArray);
 
 double[] CreateFillArray()
 {
@@ -30,7 +29,7 @@ void PrintArray(double[] arr)
     Console.WriteLine();
 }
 
-void Sum(double[] arr)
+void MaxMinDiff(double[] arr)
 {
     double min = arr[0];
     double max = arr[0];
